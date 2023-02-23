@@ -1,17 +1,16 @@
 import type { Component } from 'solid-js'
 // import { onError } from "solid-js";
-const Home: Component = () => {
+const SearchMeal: Component = () => {
     
     // onError(()=>{
     //     console.log("onError")
     // })
     return (
         <div>
-            <h1>Home page</h1>
-            <button type="button" class="btn btn-primary">Primary</button>
+            <h1>Seacrh Page</h1>
 
         </div>
     )
 }
 
-export default Home
+export default SearchMeal
