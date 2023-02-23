@@ -53,7 +53,7 @@ function Nav() {
                 </A>
               </li>
               <li class="nav-item mx-3">
-                <button class="btn btn-primary">Resume</button>
+                <button class="btn btn-primary">Nagarjuna</button>
               </li>
             </ul>
             {/* <form class="d-flex">

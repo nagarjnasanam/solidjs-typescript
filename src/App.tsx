@@ -10,7 +10,8 @@ import { lazy,onMount } from 'solid-js';
 const Home = lazy(()=> import('./views/Home'))
 const Users = lazy(()=> import('./views/Users'))
 const SearchMeal = lazy(()=> import('./views/SearchMeal'))
-const MealPlan = lazy(()=> import('./views/MealPlan'))
+// const MealPlan = lazy(()=> import('./views/MealPlan'))
+import MealPlan from "./views/MealPlan"
 
 import Header from './components/Nav.tsx'
 import Footer from "./components/Footer.tsx"
@@ -45,7 +46,7 @@ const App: Component = () => {
 
     <Route path={['login','sign-up']} element={<h1>This is the login/signup screen</h1>} />
    </Routes>
-   <Footer />
+   {/* <Footer /> */}
    </>
   );
 };
